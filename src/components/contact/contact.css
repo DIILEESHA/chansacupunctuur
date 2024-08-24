@@ -1,0 +1,130 @@
+.FORM_GRID {
+  display: grid;
+  padding: 30px;
+  gap: 30px;
+  /* grid-column: reverse-column; */
+  grid-template-columns: 1.5fr 2fr;
+  /* grid-column: re; */
+  background-color: #f0f0f0;
+}
+
+.despa {
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.sumiya {
+  color: #333;
+  opacity: 80%;
+  line-height: 150%;
+}
+
+.map_locations {
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.e {
+  /* padding: 20px; */
+}
+
+.otr {
+  font-size: 20px;
+  color: #333;
+  /* line-height: 150%; */
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.mi {
+  /* margin-top: -20px; */
+  color: inherit;
+}
+.deva {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.comb {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* width: fit-content; */
+  border-radius: 10px;
+  border: 1px solid #333;
+  margin-bottom: 30px;
+}
+
+.modq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.y {
+  /* padding: 30px; */
+}
+.gunda {
+  /* width: 100%; */
+  padding: 30px;
+  /* margin: 30px; */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.secca {
+  display: flex;
+  flex-direction: column;
+}
+.labba {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+form .inpa {
+  /* width: 100%; */
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: 1px solid #999999;
+  border-radius: 5px;
+}
+.muripa {
+  /* width: 103%; */
+  height: 20vh;
+  background-color: transparent;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.ha {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.y button {
+  border: 1px solid #333;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1000px) {
+  .FORM_GRID {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,72 @@
+.service_container {
+  padding: 20px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.service_title {
+  color: #333;
+  text-align: center;
+}
+.service_sub_title {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+.service_sub_title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.ico {
+  margin: 0px 5px;
+  background-color: transparent;
+  color: #333;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+}
+
+.lino{
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.service_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; /* Adjust the gap between the grid items if needed */
+}
+
+.service_sub {
+  /* width: 100%; */
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  position: relative; 
+  text-align: center;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #f0f0f0;
+}
+.service_img {
+  width: 100%;
+  transition: transform 0.3s ease;
+  height: 70vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+.service_sub .service_img:hover{
+    transform: scale(1.01); 
+    /* overflow: hidden; */
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.imgur.com/5WKqrGa.jpeg",
+    "title": "Acupuncture Therapy",
+    "names": "Zen Wellness"
+  },
+  {
+    "id": 2,
+    "image": "https://media.istockphoto.com/id/670240348/photo/young-woman-getting-acupuncture-treatment.webp?b=1&s=612x612&w=0&k=20&c=YIomCmZ1zyBPzqH634aQp7mNkTcJrEbSfEKlGSM_eyg=",
+    "title": "Needle Treatment",
+    "names": "Precision Points"
+  },
+  {
+    "id": 3,
+    "image": "https://static.wixstatic.com/media/11062b_c68e38daea8e456a97d5d3e94032c6ac~mv2.jpeg/v1/fill/w_1229,h_290,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_c68e38daea8e456a97d5d3e94032c6ac~mv2.jpeg",
+    "title": "Alternative Medicine",
+    "names": "Holistic Harmony"
+  }
+]

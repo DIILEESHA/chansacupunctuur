@@ -1,0 +1,20 @@
+.header_btnser {
+    font-size: 16px;
+    margin-top: -30px;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 30px;
+    text-shadow: 0 0 60px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    line-height: 0;gap: 5px;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #eee;
+    border-radius: 50px;
+    transition: 2s all;
+  
+    text-transform: uppercase;
+  }

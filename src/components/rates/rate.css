@@ -1,0 +1,21 @@
+.rate_container_title {
+  padding: 30px;
+  border-top-color: #f0f0f0;
+  border-bottom-color: #f0f0f0;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.hutto {
+  background-color: transparent;
+  border: 1px solid #333;
+  padding: 10px 30px;
+  color: #333;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%;
+  
+  text-transform: capitalize;
+  /* border-radius: 50px; */
+}
